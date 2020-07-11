@@ -1,8 +1,8 @@
-(defpackage :leftist-heap
-  (:use :cl)
-  (:export heap-sort heap->list list->heap))
+(defpackage #:leftist-heap
+  (:use #:cl)
+  (:export #:heap-sort #:heap->list #:list->heap))
 
-(in-package :leftist-heap)
+(in-package #:leftist-heap)
 
 (defstruct (node (:conc-name nil)) elem rank left right)
 

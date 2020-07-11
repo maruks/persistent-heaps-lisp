@@ -1,7 +1,7 @@
-(defpackage :heaps-tests
-  (:use :cl :cacau :check-it :assert-p :leftist-heap))
+(defpackage #:heaps-tests
+  (:use #:cl #:cacau #:check-it #:assert-p #:leftist-heap))
 
-(in-package :heaps-tests)
+(in-package #:heaps-tests)
 
 (deftest "heap-sort-test-1"
     (equalp
